@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid grey;
+
+  &.selected {
+    border: 1px solid blue;
+  }
+
+  &:hover {
+    border: 1px solid rgb(73, 204, 251);
+  }
+  &:focus {
+    border: 1px solid rgb(73, 204, 251);
+  }
+}
