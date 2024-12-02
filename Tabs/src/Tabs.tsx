@@ -52,7 +52,6 @@ export default function Tabs() {
 
   function handleTabClick(e: React.MouseEvent<HTMLButtonElement>) {
     const target = e.target as HTMLButtonElement;
-    console.log("test", target.value);
     if (target.value === "HTML") {
       setCurrentTab("HTML");
     } else if (target.value === "CSS") {

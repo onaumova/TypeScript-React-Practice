@@ -1,0 +1,17 @@
+body {
+  margin: 20px;
+}
+.paginationButton {
+  padding: 0 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 2%;
+  margin: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid grey;
+  border-collapse: collapse;
+}
