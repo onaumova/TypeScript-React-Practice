@@ -7,21 +7,6 @@ export default function FileExplorer({ data }: { data: Data[] }) {
       <div>
         {
           nestedDirectoryOrFile(data, 0, true)
-          // data.sort((a, b) => (a.name >= b.name ? 1 : -1))
-          //   .map((item) => {
-          //     if (item.hasOwnProperty("children")) {
-          //       return (
-          //         <Directory
-          //           name={item.name}
-          //           key={item.id}
-          //           children={item.children || []}
-          //           indent={0}
-          //         />
-          //       );
-          //     } else {
-          //       return <File name={item.name} key={item.id} indent={0} />;
-          //     }
-          //   })
         }
       </div>
     </div>
