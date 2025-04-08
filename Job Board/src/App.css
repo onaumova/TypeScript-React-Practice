@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(253, 245, 219);
+}
+.jobPost span {
+  margin: 5px;
+}
+
+.jobPost {
+  border: 1px solid grey;
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+  background-color: whitesmoke;
+}
